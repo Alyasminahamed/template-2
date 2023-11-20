@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*start Globle rules */
+.container{
+    width: 1200px;
+    margin: auto;
+    font-family: sans-serif;
+
+}
+
+
+.clearfix {clear: both;}
+
+/* end main rules */
+
+/*start fixed bar1 */
+.nav1  {
+    min-height: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    z-index: 99;
+}
+
+.nav1  h1 , ul li{
+    padding: 20px;
+    float: left;
+    margin: 5px;
+}
+ 
+.nav1 h1{
+    color: green;
+    text-decoration: none;
+
+}
+
+
+.nav1 li{
+    color: white;
+    background-color: green;
+    border-radius: 200px;
+    float: right;
+    list-style: none;
+
+}
+.nav1 .item {
+    color: green;
+    float:left ;
+    margin-top: 10px;
+    padding: 20px;
+    line-height: 1.4px;
+    text-decoration: none;
+}
+
+
+/*start fixed bar2 */
+.nav2{
+    min-height: 30px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px ;
+    display: inline-block;
+    background-image: linear-gradient(to left, #247519 , #9ffaae)
+
+
+}
+.nav2 ul{
+    list-style: none;
+}
+.nav2 ul li a{
+    color: rgb(15, 15, 15);
+    padding-left:100px;
+    text-decoration: none;
+
+}
+
+
+/*end fixed bar2 */
+/*start header*/
+.head {
+    background-color: rgb(230, 227, 227);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.all{
+    
+    display: grid;
+    grid-template-columns: repeat(2 , 600px);
+}
+.we h1{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-weight:900;
+}
+.we p{
+    color: rgb(161, 161, 161);
+    padding: 10px;
+}
+.we button{
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*end header*/
+
+/*Start section one*/
+.all1{
+    padding: 40px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(4 , 300px);
+}
+.all1 i{
+    color: green;
+    font-size: 40px;
+    float: left;
+    padding: 20px;
+}
+.all1 p{
+    padding-top: 0px;
+    color: rgb(161, 161, 161);
+}
+
+/*end section one*/
+
+/*Start section two*/
+.sec3{
+    text-align: center;
+}
+.our{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4 , 300px);
+}
+.our .our1{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(206, 204, 204);
+}
+.our1 h4{
+    font-weight: 900;
+    padding-bottom: 0px;
+}
+.our1 p{
+    color: rgb(150, 148, 148);
+}
+.our1 button{
+    padding: 7px;
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+}
+.email button{
+    color: white;
+    border: 5px solid green;
+    background-color: green;
+    margin-bottom: 30px;
+}
+
+/*end section two*/
+
+/*Start section three*/
+.sec4{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.services{
+    margin-left: 100px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3 , 35%);
+
+}
+.services2{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4 , 30%);
+
+}
+.ser{
+    border: 1px solid rgb(173, 170, 170);
+    margin: 5px;
+    text-align: center;
+}
+.ser img{
+    padding: 10px;
+    padding-left: 50px;
+    float: left;
+}
+.ser h3{
+    padding-top: 30px;
+}
+.ser p{
+    color: rgb(150, 148, 148);
+
+}
+
+/*end section three*/
+
+
+/*Start section four*/
+
+
+.sec5 {
+    background-color: rgb(230, 227, 227);
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.ser2{
+    display: grid;
+    grid-template-columns: repeat(2 , 600px);
+}
+.ser2 h4{
+    padding-top: 40px;
+    color: green;
+}
+.ser2 h2{
+    font-weight:900;
+}
+.ser2 p{
+    color: rgb(161, 161, 161);
+    padding: 10px;
+}
+.ser2 button{
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*end section four*/
+/*Start section five*/
+.ser3{
+    margin-top: 80px;
+    padding: 20px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3 , 35%);
+}
+
+.contact{
+    text-align: center;
+    padding: 10px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px 2px green;
+    border: 1px solid rgb(173, 170, 170);
+}
+.contact img{
+    width: 100px;
+    border: 5px solid green;
+    border-radius: 100px;
+}
+ .contact p{
+    color: rgb(161, 161, 161);
+
+ }
+/*end section five*/
+
+
+/*Start section six*/
+.ser4{
+    margin-top: 80px;
+    padding: 20px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3 , 35%);
+}
+
+.cont2{
+    text-align: center;
+    padding: 10px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px 2px green;
+    border: 1px solid rgb(173, 170, 170);
+}
+
+.cont2 img{
+    width: 300px;
+}
+.cont2 p{
+    color: rgb(161, 161, 161);
+
+ }
+
+.cont2 button{
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+}
+
+/*end section six*/
+
+/*Start footer*/
+.footer{
+    margin-top: 90px;
+    padding-top: 40px;
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+}
+
+.footer H2{
+    color: green;
+    font-weight: 900;
+}
+
+.login{
+    padding-top: 40px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(4 , 25%);
+}
+
+.foot h4{
+    color: white;
+    font-weight: 600;
+}
+.foot ul li a{
+    padding: 15px;
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}
+
+
+.foot ul{
+    text-align: left;
+    color: #acadac;
+    list-style: none;
+}
+
+.foot1 h4{
+    color: white;
+    font-weight: 600;
+}
+.foot1 p{
+    padding-top: 40px;
+    text-align: center;
+    color: #acadac;
+
+}
+
+.foot2 h4{
+    color: white;
+    font-weight: 600;
+}
+
+.foot2 ul li i{
+    padding: 15px;
+    border-radius: 100px;
+    color: white;
+    background-color: #247519;
+    text-decoration: none;
+}
+
+
+.foot2 ul{
+    margin-left: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.foot3 h4{
+    color: white;
+    font-weight: 600;
+}
+.foot3 p{
+    padding-top: 40px;
+    text-align: center;
+    color: #acadac;
+
+}
+/*end footer*/
+
+
